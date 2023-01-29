@@ -5,22 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ashley's Portfolio</title>
 </head>
 
 <body>
-    <main>
-        <header>
-            <h1>Ashley ONeil</h1>
-        </header>
-        <section id= "about"></section>
-        <section id="work"></section>
-        <section id="contact"></section>
-        <footer>
-            copyright@2023
 
-        </footer>
-    </main>
+    <div class="header" style="border: 1px solid black;">
+        <h1>Ashley ONeil</h1>
+
+
+        <ul id="navBar" style="border: 1px solid black;">
+
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#my-projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="content">
+        <div id="about-me" class="about-me">
+            <div id="about-me-img">
+                <img src="./profilepic.jpg" alt="" style="width: 250px; height: 200px;">
+            </div>
+            <div id="about-me-description"> 
+                <h2>About Me</h2>
+                <p>
+                    Entry level coding student with an eagerness to learn a new field.
+                </p>
+
+            </div>
+           
+           
+        </div>
+        <div id="my-projects" class="my-projects">
+            <h2>My Projects</h2>
+            <a href="https://github.com/AshleyONeil">visit my github </a>
+        </div>
+
+
+    </section>
+    <section id="my-projects">
+
+    </section>
+    <section id="contact"></section>
+    <footer>
+        copyright@2023
+
+    </footer>
+
 </body>
 
 </html>
