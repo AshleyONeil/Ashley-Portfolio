@@ -14,11 +14,11 @@
 
 <body>
 
-    <div class="header" style="border: 1px solid black;">
+    <div class="header">
         <h1>Ashley ONeil</h1>
 
 
-        <ul id="navBar" style="border: 1px solid black;">
+        <ul id="navBar">
 
             <li>
                 <a href="#about-me">About Me</a>
@@ -32,53 +32,78 @@
         </ul>
     </div>
 
-    <section class="content">
+    <section class="content" style="border: 1px solid;">
         <div id="about-me" class="about-me">
-            <div id="about-me-img">
+            <h2 style="width: 25%;">About Me</h2>
+            <!-- <div id="about-me-img">
+                
+            </div> -->
+            <div id="about-me-description">
                 <img src="./profilepic.jpg" alt="" style="width: 250px; height: 200px;">
-            </div>
-            <div id="about-me-description"> 
-                <h2>About Me</h2>
                 <p>
-                    Current web development student at UCF with an eagerness to learn a new field. Becoming an entry 
-                    level prospect in HTML, CSS, Java, JQuery, Bootstrap, and Node,js. 
+                    Current web development student at UCF with an eagerness to learn a new field. Becoming an entry
+                    level prospect in HTML, CSS, Java, JQuery, Bootstrap, and Node,js.
+                    
                 </p>
 
             </div>
-           
-           
+
+
         </div>
-        <div id="my-projects" class="my-projects">
-            <h2>My Projects</h2>
-            <div>
+        <div id="my-projects" class="my-projects" style="border: 2px solid; display:flex">
+            <h2 style="width: 25%;">My Projects</h2>
+            <div style="width: 70%;">
+
                 <a href="https://ashleyoneil.github.io/MyProject1/">
-                    <img src="./horiseon.JPG" alt=""  style="width: 250px; height: 200px;">
+                    <img src="./horiseon.JPG" class="project-img" style="width: 100%;">
+                    <h4 style="background-color: white; color: black; position: absolute; left: 15%; top: 50%;">
+                        HTML Project
+                    </h4>
 
                 </a>
                 <div>
                     <a href="https://ashleyoneil.github.io/First-HTML-activity/">
-                        <img src="./webdev.jpg" alt=""  style="width: 250px; height: 200px;">
-                   </a>       
-                 </div>
+                        <img src="./webdev.jpg" alt="" style="width: 40%;">
+                        
 
-                <div>
+                    </a>
                     <a href="https://ashleyoneil.github.io/first-day-repo/">
-                        <img src="./repo.jpg" alt=""  style="width: 250px; height: 200px;">
+                        <img src="./repo.jpg" alt="" style="width: 40%;">
+                    </a>
                 </div>
+
+
             </div>
-            <a href="https://github.com/AshleyONeil">visit my github </a>
         </div>
 
 
-    </section>
-    <section id="my-projects">
+
+
+
 
     </section>
-    <section id="contact"></section>
-    <footer>
-        copyright@2023
 
-    </footer>
+
+    <div id="contact-me" class="contact-me">
+        <div id="contact-me">
+        </div>
+        <div id="contact-me-description">
+            <h2>Contact</h2>
+            <p>
+                Email: elizaoneil@outlook.com
+                Phone: 555-555-5555
+                <a href="https://github.com/AshleyONeil">visit my github </a>
+            </p>
+
+        </div>
+        <section id="my-projects">
+
+        </section>
+        <section id="contact"></section>
+        <footer>
+            copyright@2023
+
+        </footer>
 
 </body>
 

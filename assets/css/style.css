@@ -15,10 +15,26 @@ h1 {
 }
 #about-me {
     display: flex;
+   
 }
 #about-me-description {
+    display: flex;
+     padding: 5px;
     flex:70%;
-    border: 2px solid  black;
+    
+}
+#about-me-description img {
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+#about-me-description p {
+   margin: 5px;
+}
+.project-img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgrey;  
+    opacity: .6;
+    position: relative;
 }
 #about-me-img {
     flex:30%;
